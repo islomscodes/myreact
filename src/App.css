@@ -10,12 +10,9 @@ body{
 }
 .mycard{
  display: flex;
- margin-left: 20px;
+ /* margin-left: 20px; */
 }
-.row{
-  margin-top: 15rem;
-  margin-left: 20rem;
-}
+
 .card{
   width: 150px;
   margin-left: 1rem;

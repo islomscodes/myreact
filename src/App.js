@@ -35,8 +35,8 @@ class App extends React.Component {
         <div className="row mt-5 d-flex align-items-center">
           {myApp.map((v, i) => {
             return (
-              <div className="col col-md-3 col-lg-3">
-                <div className="card ">
+              <div className="col col-md-3 col-lg-3 ">
+                <div className="card shadow ">
                   <span className="span ">{v.Num}</span>
                   <h2 className="h2">{v.element}</h2>
                   <p className="p">{v.subElement}</p>
